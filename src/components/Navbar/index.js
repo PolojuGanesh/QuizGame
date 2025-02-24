@@ -1,5 +1,6 @@
 import {Link, withRouter} from 'react-router-dom'
 import Cookies from 'js-cookie'
+import {FiLogOut} from 'react-icons/fi'
 
 import './index.css'
 
@@ -28,15 +29,11 @@ const Navbar = props => {
       </button>
       <button
         onClick={clickOnLogout}
-        aria-label="Image"
+        aria-label="Logout"
         type="button"
         className="mobile-navbar-logout-button"
       >
-        <img
-          src="https://res.cloudinary.com/dw8wxvhwd/image/upload/v1737042345/log-out-02_ww2ouh.png"
-          alt=""
-          className="mobile-logout-image"
-        />
+        <FiLogOut className="mobile-logout-image" />
       </button>
     </nav>
   )

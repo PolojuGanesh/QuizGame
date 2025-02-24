@@ -18,16 +18,12 @@
 .navbar-website-logo {
   width: 77px;
   height: 56px;
-  gap: 8px;
-  opacity: 0px;
 }
 
 @media all and (max-width: 767px) {
   .navbar-website-logo {
     width: 43px;
     height: 32px;
-    gap: 0px;
-    opacity: 0px;
   }
 }
 
@@ -55,15 +51,14 @@
     display: block;
     width: 24px;
     height: 24px;
-    gap: 0px;
-    opacity: 0px;
     border: 0px;
     background-color: transparent;
     cursor: pointer;
   }
 
   .mobile-logout-image {
-    height: 24px;
+    font-size: 24px;
+    color: #afafaf;
   }
 
   .navbar-logout-button {
