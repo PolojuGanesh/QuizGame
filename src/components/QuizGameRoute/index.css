@@ -276,6 +276,14 @@
   background-color: transparent;
 }
 
+.single-select-radio {
+  margin-bottom: 1%;
+}
+
+.single-select-label {
+  margin-bottom: 1%;
+}
+
 @media screen and (max-width: 768px) {
   .number-container {
     height: 60px;
